@@ -1,0 +1,22 @@
+Twilight Fellowship layout for Herdr
+Copyright 2026 Rafael González
+
+This product includes software from Traveler, a layout for Herdr
+(https://github.com/franky5440-afk/herdr-traveler), Copyright 2026 Frank Lin,
+licensed under the Apache License 2.0. Traveler's NOTICE reads:
+
+  mods/traveler-spaces, mods/traveler-tabs and mods/traveler-chrome are derived
+  from the built-in mods spaces, tabs and workspace-chrome of Herdr 0.1.11
+  (Apache License 2.0). They were modified: radius removed, panel fills made
+  translucent, portraits, building images and git summaries added.
+
+mods/twilight-fellowship-agents, -spaces, -tabs and -chrome are modified copies
+of Traveler's traveler-agents, -spaces, -tabs and -chrome. They were modified:
+renamed; characters assigned per agent instead of per tab name, kept in shared
+state; sixteen characters instead of eight; status words, buildings, header
+title and panel icons changed. mods/inbox is Traveler's inbox mod, unchanged.
+
+opencode/themes/twilight-fellowship.json is derived from the default theme of
+OpenCode (https://opencode.ai, MIT License), with its colors changed.
+
+Images are not covered by the Apache License. See ART-NOTICE.md.
