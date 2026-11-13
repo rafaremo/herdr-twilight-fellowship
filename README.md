@@ -1,6 +1,6 @@
 # Twilight Fellowship
 
-A high-fantasy layout for [Herdr](https://herdr.dev), with a matching OpenCode theme. Every agent gets its own pixel-art character from a party of sixteen, eight heroes and eight villains. Spaces become buildings, the sidebar is a starlit valley at night, and terminals sit on an old ink map.
+A high-fantasy layout for [Herdr](https://herdr.dev), with a matching OpenCode theme. Every agent gets its own pixel-art character from a party of seventeen, nine heroes and eight villains. Spaces become buildings, the sidebar is a starlit valley at night, and terminals sit on an old ink map.
 
 ![Twilight Fellowship](preview.png)
 
@@ -8,8 +8,8 @@ A high-fantasy layout for [Herdr](https://herdr.dev), with a matching OpenCode t
 
 ## What you get
 
-- **A character per agent:** each agent draws a character when it starts and keeps it while it runs. Running agents don't share one until all sixteen are taken.
-  - **Heroes:** ranger, elven archer, dwarf, halfling, blue wizard, scholar, healer, blacksmith.
+- **A character per agent:** each agent draws a character when it starts and keeps it while it runs. Running agents don't share one until all seventeen are taken.
+  - **Heroes:** ranger, elven archer, dwarf, halfling, blue wizard, scholar, healer, blacksmith, elven high king.
   - **Villains:** dark lord, fallen sorcerer, wraith, berserker, orc, goblin, cave troll, spy.
 - **Animated cards:** every character has three animations. At rest it breathes. When working it swings, draws, casts or hammers. When the agent needs you it raises a hand under a flashing gold `!`.
 - **Status words:** "On the road", "Needs you", "Quest done" and "Resting".

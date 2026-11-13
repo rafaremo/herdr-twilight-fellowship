@@ -24,6 +24,7 @@ The four frames are always: 1 at rest, 2 and 3 the working motion, 4 one hand ra
 ranger: a weathered northern ranger, dark hair, stubble, dark green hooded travel cloak over brown leather, longsword. 2 sword raised high, 3 sword swung down diagonally.
 archer: an original male elven sentinel archer, stern face, short cropped dark auburn hair, pointed ears, dark grey hooded cloak over silver ring mail, deep blue tunic, leather bracers, quiver, dark wooden longbow. 2 arrow nocked, 3 string pulled fully back.
 dwarf: a stout dwarf warrior, long braided copper-red beard with gold rings, iron helmet, chainmail, dark blue hood, short battle axe. 2 axe raised, 3 axe swung down.
+fingo: an original tall elven high king, long straight black hair, pointed ears, silver circlet with blue gems, silver plate armor over a deep blue tunic, dark blue cloak, long elegant sword with a silver hilt and blue gem. 2 sword raised high, 3 sword swung down diagonally.
 halfling: a cheerful halfling, curly chestnut hair, bare hairy feet, yellow waistcoat, green cloak, small red leather book and quill. 2 and 3 writing in the open book.
 wizard: a young wandering wizard in deep sea-blue robes and hood, short dark beard, gnarled staff with a white crystal. 2 crystal glowing, 3 crystal blazing with sparkles.
 loremaster: a middle-aged male human scholar of a great stone city, long grey-streaked beard, black and silver long coat, parchment scroll. 2 scroll unrolled, 3 pointing at the text.

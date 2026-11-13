@@ -145,7 +145,7 @@ MODS = OUT
 AGENTS, SPACES, TABS, CHROME = (f"{MODS}/twilight-fellowship-{m}" for m in ("agents", "spaces", "tabs", "chrome"))
 want = lambda n: not ONLY or n in ONLY
 
-HEROES = ["archer", "dwarf", "halfling", "healer", "loremaster", "ranger", "smith", "wizard"]
+HEROES = ["archer", "dwarf", "fingo", "halfling", "healer", "loremaster", "ranger", "smith", "wizard"]
 VILLAINS = ["berserker", "darklord", "goblin", "orc", "sorcerer", "spy", "troll", "wraith"]
 for n in HEROES + VILLAINS:
     if want(n) and os.path.exists(f"{GEN}/sheet-{n}.png"):

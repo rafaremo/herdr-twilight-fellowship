@@ -1,6 +1,6 @@
 # Twilight Fellowship
 
-A high-fantasy layout for Herdr at night. Each agent is a party member with its own animated pixel character, eight heroes and eight villains. Each space is a building, the sidebar is a starlit valley, and terminals sit on an old ink map. A matching OpenCode theme lets the map show behind OpenCode too.
+A high-fantasy layout for Herdr at night. Each agent is a party member with its own animated pixel character, nine heroes and eight villains. Each space is a building, the sidebar is a starlit valley, and terminals sit on an old ink map. A matching OpenCode theme lets the map show behind OpenCode too.
 
 ![Twilight Fellowship](preview.png)
 
@@ -31,7 +31,7 @@ A high-fantasy layout for Herdr at night. Each agent is a party member with its 
   - *working:* alternates two poses, 320 and 260 ms
   - *blocked:* raises a hand under a gold `!` that flashes every 320 ms
   - *done, idle, no status:* the resting pose, which breathes (the upper body sinks one pixel for 600 ms every 1.5 s)
-- **Characters are per agent:** a new agent gets a character the first time the agents list sees it. It keeps that character while it lives. Live agents don't share one until all sixteen are used.
+- **Characters are per agent:** a new agent gets a character the first time the agents list sees it. It keeps that character while it lives. Live agents don't share one until all seventeen are used.
 - **Tab faces:** a tab shows its agent's face, preferring blocked, then done, then working. A tab without an agent shows its program icon.
 - **Clicks and drags:** clicking a card focuses that agent. Clicking a space selects it, right-click opens its menu, and dragging reorders it within a machine. Tabs and panel buttons work like the shipped ones, and the open panel is remembered per space.
 
@@ -42,7 +42,7 @@ A high-fantasy layout for Herdr at night. Each agent is a party member with its 
   - column `sidebar`: block `brand`, column `sidebar-lists` (blocks `spaces`, `agents`), block `sidebar-footer`
   - column `work`: block `tabs`, row `work-body` (`main`, and the hidden `panel` stack `panel-body` with `files`, `changes`, `inbox`), block `status`
 - **`twilight-fellowship-agents`:**
-  - `lib.js` holds `JOBS` (8 heroes, then 8 villains) and `assignParty(addresses, party)`.
+  - `lib.js` holds `JOBS` (9 heroes, then 8 villains) and `assignParty(addresses, party)`.
   - `render` calls `assignParty(agents().map(a => a.address), shared(PARTY_KEY))` and writes back with `setShared` only when something changed. `PARTY_KEY` is `"twilight-fellowship.party"`.
   - The record forgets dead agents once it holds more than 32.
   - It reads HP/SP from `data/traveler/sessions/<id>.json` (Traveler's status line format).
@@ -51,7 +51,7 @@ A high-fantasy layout for Herdr at night. Each agent is a party member with its 
 - **`twilight-fellowship-chrome`:** the header and footer; translucent fills over the sidebar art.
 - **`inbox`:** Traveler's, unchanged.
 - **Shipped mods used:** `pane`, `files`, `changes`, `workspace-status`, `menu`, `new-menu`, `picker`.
-- **Art:** 16 characters × 3 GIFs (144×192: 36×48 pixels at 4×) plus 16 portraits, 4 buildings, 3 icons and 2 backgrounds. All of it is built from generated images by `scripts/build-art.py`; prompts are in `docs/ART-PROMPTS.md`.
+- **Art:** 17 characters × 3 GIFs (144×192: 36×48 pixels at 4×) plus 17 portraits, 4 buildings, 3 icons and 2 backgrounds. All of it is built from generated images by `scripts/build-art.py`; prompts are in `docs/ART-PROMPTS.md`.
 - **OpenCode:** `opencode/themes/twilight-fellowship.json` is a V2 theme derived from OpenCode's default:
   - `background.base` is `transparent`
   - raised surfaces are `#121a33`, `#1a2340` and `#26304f`

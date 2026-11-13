@@ -5,6 +5,7 @@ export const JOBS = [
   // the fellowship
   "archer",
   "dwarf",
+  "fingo",
   "halfling",
   "healer",
   "loremaster",
